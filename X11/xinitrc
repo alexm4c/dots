@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# global xinitrc file, used by all X sessions started by xinit (startx)
+
+numlockx &
+
+. /etc/X11/Xsession

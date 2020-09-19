@@ -1,0 +1,85 @@
+{
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 28,
+    "window.zoomLevel": 1,
+    "scm.autoReveal": false,
+    "explorer.autoReveal": false,
+    "terminal.external.linuxExec": "uxvrt",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "php-docblocker.returnVoid": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "intelephense.completion.insertUseDeclaration": false,
+    "intelephense.completion.triggerParameterHints": false,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.tabWidth": 4,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+    "intelephense.telemetry.enabled": false,
+    "intelephense.environment.phpVersion": "7.3.14",
+    "auto-close-tag.excludedTags": [
+        "area",
+        "base",
+        "br",
+        "col",
+        "command",
+        "embed",
+        "hr",
+        "img",
+        "input",
+        "keygen",
+        "link",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+    ],
+    "workbench.colorTheme": "One Dark Pro",
+    "namespaceResolver.sortNatural": true,
+    "namespaceResolver.sortAlphabetically": true,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.scriptInitialIndent": true,
+    "prettier.singleQuote": true,
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.emptyRules": "ignore",
+    "namespaceResolver.showMessageOnStatusBar": true,
+    "files.autoSave": "afterDelay",
+    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
+    "clipboard-manager.snippet.enabled": false,
+    "clipboard-manager.maxClips": 8,
+    "clipboard-manager.snippet.max": 5,
+    "clipboard-manager.preview": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "github.gitAuthentication": false,
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 74,
+    "php-cs-fixer.lastDownload": 1600225805182
+}

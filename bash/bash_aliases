@@ -1,0 +1,11 @@
+# some more ls aliases
+alias l1='ls -1'
+alias ll='ls -l --block-size=k'
+alias la='ls -a1'
+alias pa='php artisan'
+alias pfix='sudo chgrp -R www-data storage bootstrap/cache && sudo chmod -R ug+rwx storage bootstrap/cache'
+alias sudo="sudo "
+alias sd30="sudo shutdown -h +30"
+alias sd45="sudo shutdown -h +45"
+alias sd60="sudo shutdown -h +60"
+alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME/.config'

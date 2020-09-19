@@ -1,0 +1,35 @@
+!! Code School !!
+
+#define c00 #232c31
+#define c08 #3f4944
+#define c01 #b02f30
+#define c09 #b02f30
+#define c02 #237986
+#define c10 #237986
+#define c03 #c59820
+#define c11 #c59820
+#define c04 #2a5491
+#define c12 #2a5491
+#define c05 #484d79
+#define c13 #484d79
+#define c06 #a03b1e
+#define c14 #a03b1e
+#define c07 #9ea7a6
+#define c15 #b5d8f6
+
+*.color0:       c00
+*.color1:       c01
+*.color2:       c02
+*.color3:       c03
+*.color4:       c04
+*.color5:       c05
+*.color6:       c06
+*.color7:       c07
+*.color8:       c08
+*.color9:       c09
+*.color10:      c10
+*.color11:      c11
+*.color12:      c12
+*.color13:      c13
+*.color14:      c14
+*.color15:      c15
