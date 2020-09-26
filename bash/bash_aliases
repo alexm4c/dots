@@ -4,6 +4,7 @@ alias ll='ls -l --block-size=k'
 alias la='ls -a1'
 alias pa='php artisan'
 alias pfix='sudo chgrp -R www-data storage bootstrap/cache && sudo chmod -R ug+rwx storage bootstrap/cache'
+alias pav='pavucontrol'
 alias sudo="sudo "
 alias sd30="sudo shutdown -h +30"
 alias sd45="sudo shutdown -h +45"
