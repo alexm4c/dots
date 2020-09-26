@@ -70,7 +70,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-#for_window [window_role="pop-up"] floating enable 
+#for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [window_role="Preferences"] floating enable
@@ -87,12 +87,16 @@ bar {
     status_command i3status
     font pango:Fira Code Retina 16
     position bottom
+    tray_output primary
+    tray_padding 8
 }
 
 #-- on login --#
 
-exec --no-startup-id nitrogen --restore &
-exec --no-startup-id xflux -g 145.0012255 -l -37.7540674 -r &
+exec --no-startup-id nm-tray
+exec --no-startup-id autorandr --change
+exec --no-startup-id nitrogen --restore
+exec --no-startup-id xflux -g 145.0012255 -l -37.7540674 -r
 
 #-- bindings --#
 
@@ -109,9 +113,9 @@ bindsym Shift+Print exec --no-startup-id flameshot gui -p $HOME/images/screensho
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume "@DEFAULT_SINK@" +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume "@DEFAULT_SINK@" -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute "@DEFAULT_SINK@" toggle
-bindsym $mod+p exec playerctl play-pause
-bindsym $mod+bracketright exec playerctl next
-bindsym $mod+bracketleft exec playerctl previous
+bindsym $mod+p exec --no-startup-id playerctl play-pause
+bindsym $mod+bracketright exec --no-startup-id playerctl next
+bindsym $mod+bracketleft exec --no-startup-id playerctl previous
 
 bindsym $mod+F1 exec --no-startup-id brave-browser
 bindsym $mod+F2 exec --no-startup-id code
@@ -119,16 +123,15 @@ bindsym $mod+F2 exec --no-startup-id code
 #bindsym $mod+F2 exec --no-startup-id autorandr --change
 #bindsym $mod+F3 exec --no-startup-id pavucontrol
 
-mode "(e)xit (r)estart (s)hutdown (l)ock" {
+mode "(e)xit (r)estart (s)hutdown" {
     bindsym r exec systemctl reboot
     bindsym e exit
     bindsym s exec systemctl poweroff
-    bindsym l exec exec --no-startup-id "~/.config/i3/scripts/lock.sh"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym $mod+Escape mode "(e)xit (r)estart (s)hutdown (l)ock"
+bindsym $mod+Escape mode "(e)xit (r)estart (s)hutdown"
 
 mode "Resize" {
     bindsym Left        resize shrink width 8 px or 8 ppt
