@@ -10,3 +10,4 @@ alias sd30="sudo shutdown -h +30"
 alias sd45="sudo shutdown -h +45"
 alias sd60="sudo shutdown -h +60"
 alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME/.config'
+alias dt="urxvt &"

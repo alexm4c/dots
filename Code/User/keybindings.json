@@ -261,5 +261,19 @@
         "key": "ctrl+shift+v",
         "command": "-markdown.extension.togglePreview",
         "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "namespaceResolver.import",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-namespaceResolver.import",
+        "when": "editorTextFocus"
     }
 ]

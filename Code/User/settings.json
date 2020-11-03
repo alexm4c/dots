@@ -4,7 +4,7 @@
     "editor.snippetSuggestions": "top",
     "editor.fontLigatures": true,
     "editor.lineHeight": 28,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 3,
     "scm.autoReveal": false,
     "explorer.autoReveal": false,
     "terminal.external.linuxExec": "uxvrt",
@@ -12,14 +12,13 @@
     "workbench.statusBar.visible": true,
     "php-docblocker.returnVoid": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "intelephense.completion.insertUseDeclaration": false,
     "intelephense.completion.triggerParameterHints": false,
     "prettier.vueIndentScriptAndStyle": true,
     "prettier.tabWidth": 4,
     "workbench.iconTheme": "eq-material-theme-icons",
     "auto-close-tag.enableAutoCloseSelfClosingTag": false,
     "intelephense.telemetry.enabled": false,
-    "intelephense.environment.phpVersion": "7.3.14",
+    "intelephense.environment.phpVersion": "7.4.11",
     "auto-close-tag.excludedTags": [
         "area",
         "base",
@@ -47,7 +46,6 @@
     "scss.lint.duplicateProperties": "warning",
     "scss.lint.emptyRules": "ignore",
     "namespaceResolver.showMessageOnStatusBar": true,
-    "files.autoSave": "afterDelay",
     "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
     "clipboard-manager.snippet.enabled": false,
     "clipboard-manager.maxClips": 8,
@@ -80,6 +78,12 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.printWidth": 74,
-    "php-cs-fixer.lastDownload": 1600225805182
+    "prettier.printWidth": 90,
+    "php-cs-fixer.lastDownload": 1600225805182,
+    "git.autofetch": true,
+    "intelephense.format.enable": false,
+    "prettier.trailingComma": "all",
+    "prettier.useEditorConfig": false,
+    "files.autoSaveDelay": 5000,
+    "javascript.updateImportsOnFileMove.enabled": "never"
 }
