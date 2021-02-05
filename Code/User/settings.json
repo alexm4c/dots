@@ -1,89 +1,116 @@
 {
-    "editor.fontFamily": "Fira Code Retina",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 28,
-    "window.zoomLevel": 3,
-    "scm.autoReveal": false,
-    "explorer.autoReveal": false,
-    "terminal.external.linuxExec": "uxvrt",
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": true,
-    "php-docblocker.returnVoid": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "intelephense.completion.triggerParameterHints": false,
-    "prettier.vueIndentScriptAndStyle": true,
-    "prettier.tabWidth": 4,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "auto-close-tag.enableAutoCloseSelfClosingTag": false,
-    "intelephense.telemetry.enabled": false,
-    "intelephense.environment.phpVersion": "7.4.11",
-    "auto-close-tag.excludedTags": [
-        "area",
-        "base",
-        "br",
-        "col",
-        "command",
-        "embed",
-        "hr",
-        "img",
-        "input",
-        "keygen",
-        "link",
-        "meta",
-        "param",
-        "source",
-        "track",
-        "wbr"
-    ],
-    "workbench.colorTheme": "One Dark Pro",
-    "namespaceResolver.sortNatural": true,
-    "namespaceResolver.sortAlphabetically": true,
-    "vetur.format.options.tabSize": 4,
-    "vetur.format.scriptInitialIndent": true,
-    "prettier.singleQuote": true,
-    "scss.lint.duplicateProperties": "warning",
-    "scss.lint.emptyRules": "ignore",
-    "namespaceResolver.showMessageOnStatusBar": true,
-    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
-    "clipboard-manager.snippet.enabled": false,
-    "clipboard-manager.maxClips": 8,
-    "clipboard-manager.snippet.max": 5,
-    "clipboard-manager.preview": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[blade]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "github.gitAuthentication": false,
-    "workbench.enableExperiments": false,
-    "workbench.startupEditor": "none",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.printWidth": 90,
-    "php-cs-fixer.lastDownload": 1600225805182,
-    "git.autofetch": true,
-    "intelephense.format.enable": false,
-    "prettier.trailingComma": "all",
-    "prettier.useEditorConfig": false,
-    "files.autoSaveDelay": 5000,
-    "javascript.updateImportsOnFileMove.enabled": "never"
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 28,
+  "window.zoomLevel": 2,
+  "scm.autoReveal": false,
+  "explorer.autoReveal": false,
+  "terminal.external.linuxExec": "uxvrt",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "php-docblocker.returnVoid": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "intelephense.completion.triggerParameterHints": false,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "intelephense.telemetry.enabled": false,
+  "intelephense.environment.phpVersion": "7.4.11",
+  "workbench.colorTheme": "One Dark Pro",
+  "namespaceResolver.sortNatural": true,
+  "namespaceResolver.sortAlphabetically": true,
+  "prettier.singleQuote": true,
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.emptyRules": "ignore",
+  "namespaceResolver.showMessageOnStatusBar": true,
+  "php-cs-fixer.executablePath": "/home/alex/.config/composer/vendor/bin/php-cs-fixer",
+  "clipboard-manager.snippet.enabled": false,
+  "clipboard-manager.maxClips": 8,
+  "clipboard-manager.snippet.max": 5,
+  "clipboard-manager.preview": false,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.gitAuthentication": false,
+  "workbench.enableExperiments": false,
+  "workbench.startupEditor": "none",
+  "php-cs-fixer.lastDownload": 1600225805182,
+  "git.autofetch": true,
+  "intelephense.format.enable": false,
+  "files.autoSaveDelay": 5000,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "cSpell.userWords": [
+    "activecampaign",
+    "authed",
+    "authed redirect test",
+    "authenticatable",
+    "bugsnag",
+    "bulma",
+    "csrf",
+    "dcode",
+    "dcodegroup",
+    "deepmerge",
+    "dispatchable",
+    "doesnt",
+    "doesnt have",
+    "dropdowns",
+    "flexbox",
+    "have",
+    "imgs",
+    "laravel",
+    "laravel's",
+    "loggable",
+    "myoffer",
+    "placeables",
+    "queueable",
+    "redirect",
+    "rego",
+    "responsable",
+    "scrollbar",
+    "spatie",
+    "substart",
+    "test",
+    "vehicle",
+    "vehicle rego",
+    "versionable",
+    "vuetify",
+    "vuex"
+  ],
+  "prettier.arrowParens": "avoid",
+  "php-cs-fixer.autoFixByBracket": false,
+  "prettier.useEditorConfig": false,
+  "editor.rulers": [80, 120],
+  "bladeFormatter.format.indentSize": 2,
+  "prettier.printWidth": 120,
+  "php-cs-fixer.formatHtml": true,
+  "bladeFormatter.format.wrapAttributes": "force-expand-multiline"
 }

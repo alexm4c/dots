@@ -4,8 +4,8 @@ URxvt.foreground: c07
 URxvt.cursorColor: c07
 
 !! Appearance
-URxvt.font: xft:Fira Code:style=Retina:pixelsize=24:antialias=true:hinting=true
-URxvt.letterSpace: 0
+URxvt.font: xft:Fira Code:style=Retina:pixelsize=22:antialias=true:hinting=true
+URxvt.letterSpace: -1
 URxvt.lineSpace: 1
 URxvt.scrollBar: false
 URxvt.borderless: true
